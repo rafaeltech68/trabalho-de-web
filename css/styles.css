@@ -63,20 +63,20 @@ nav ul li a {
 .img1 {
     display: flex;
     list-style-type: none; /* Remove as bolinha da lista */     
-    margin-left: 10%;  
+    margin-left: 15px;  
      
 }
 
 .img1 figcaption {
     text-align: center;
-    margin-top: -5px;
+    margin-top: 20px;
     background: #c2185b;
     
 }
 
 /*Contatos*/
 .contatos {    
-    margin-top: 100px;
+    margin-top: 200px;
     text-align: center;
 }
 
