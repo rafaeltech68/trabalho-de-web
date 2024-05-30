@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: #f8d7da; /* Rosa Claro */
@@ -53,7 +54,7 @@ nav ul li a {
     background-color: #c49565;  /* Bege/Creme */
     padding: 20px 0 200px 0;
     color: white;
-    text-align: center;    
+    text-align: center;     
 }
 
 .galeria img {
@@ -62,9 +63,8 @@ nav ul li a {
 
 .img1 {
     display: flex;
-    list-style-type: none; /* Remove as bolinha da lista */     
-    margin-left: 15px;  
-     
+    justify-content: center;
+    list-style-type: none; /* Remove as bolinha da lista */         
 }
 
 .img1 figcaption {
