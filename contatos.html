@@ -3,41 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contatos</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <title>Aqui Tem Bolo - Contato</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles-contatos.css">
 </head>
 <body>
     <!-- Cabeçalho -->
-    <header>
+    <header> <!-- menu de navegação -->
         <h1>Aqui Tem Bolo</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="contatos.html">Contato</a></li>                
+                <li><a href="contatos.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="contatos">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco:</p>
-        <form id="contatos-form">
-            <label for="name">Nome:</label><br>
-            <input type="text" id="name" name="name" required><br>            
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>            
-            <label for="message">Mensagem:</label><br>
-            <textarea id="message" name="message" required></textarea><br>            
-            <input type="submit" value="Enviar">
-        </form>
+    <div class="container">
+        <div class="logo">
+            <img src="./fotos/logo.jpg" alt="Logo Aqui Tem Bolo">
+        </div>
+        <h1>TEM BOLO</h1>
+        <p> Celebre os bons momentos com doçura. 😋 
+            <br> Se é especial, TEM BOLO! 🍰
+        <br>Bolos e doces personalizados para todas as ocasiões.<br></p>
+        <a href="https://wa.me/5511954916141" class="btn">
+            <img src="/fotos/whatsapp-icon.png" alt="WhatsApp"> WhatsApp
+        </a>
+        
     </div>
-
+    <!-- Rodapé -->
     <footer class="footer">
         <p>#Aqui tem Bolo!</p>        
         <p class="endereco">
             <span class="pin">📍</span> Rua Tenente Isaías Branco de Araújo,  215 - Vila das Belezas, São Paulo - SP
         </p>
     </footer>
+   
+    <script src="scripts.js"></script> 
 </body>
 </html>

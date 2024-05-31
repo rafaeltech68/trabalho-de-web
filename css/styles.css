@@ -3,14 +3,15 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #f8d7da; /* Rosa Claro */
+    background-color: #c2185b; /* Rosa escuro */
 }
+
 /*cabeçalho*/
 header {
     background-color: #c2185b; /* Rosa Escuro */
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px 0;
 }
 
 nav ul {
@@ -37,10 +38,12 @@ nav ul li a {
     padding: 30px 0;
 }
 
-.carousel- {
-    width: 600px;
-    height: 600px;
-    margin: auto;
+/* carrrosel*/
+.carousel-inner .item img,
+.carousel-inner .item a img {
+      width: 75%;
+      max-height: 600px;    
+      margin: auto;
 }
 
 /*sobre-index*/
@@ -52,33 +55,43 @@ nav ul li a {
 
 /*galeria*/
 .galeria {
+    height: 3000px;
     background-color: #c49565;  /* Bege/Creme */
-    padding: 20px 0 200px 0;
+    padding: 15px 0 25px 0;
     color: white;
     text-align: center;     
 }
 
 .galeria img {
   border: 3px solid #c2185b;
+  
 }
 
-.img1 {
+.img {
     display: flex;
-    justify-content: center;
-    list-style-type: none; /* Remove as bolinha da lista */         
+    justify-content: center;    
+    list-style-type: none; /* Remove as bolinha da lista */  
+    text-align: center; 
+    max-width: 100%;
+    height: auto;
+    
 }
 
-.img1 figcaption {
+.img figcaption {
     text-align: center;
     margin-top: 20px;
-    background: #c2185b;
-    
+    background: #c2185b;    
 }
 
 /*Contatos*/
 .contatos {    
-    margin-top: 200px;
+    height: 600px;
+    background-color: #f8d7da; /* Rosa Claro */   
+}
+
+#contatos-form {
     text-align: center;
+    padding: 290px;
 }
 
 /*rodape*/
@@ -95,7 +108,7 @@ footer {
 footer .endereco {
     margin-top: 10px;
     font-size: 16px;
-    color: white;
+    color: white;    
 }
 
 footer .endereco .pin {
