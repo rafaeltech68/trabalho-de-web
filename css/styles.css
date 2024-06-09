@@ -6,14 +6,13 @@ body {
     background-color: #c2185b; /* Rosa escuro */
 }
 
-/*---------------------------------------------------------------------------------*\
+/*-----------------------------------------------------------------------------------*\
 
 /*cabeçalho*/
 header {
     background-color: #c2185b; /* Rosa Escuro */
     color: white;
     text-align: center;
-    padding: 20px 0;
 }
 
 nav ul {

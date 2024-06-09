@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- Cabeçalho -->
-    <header> <!-- menu de navegação -->
+    <header>
         <h1>Aqui Tem Bolo</h1>
         <nav>
             <ul>
@@ -20,13 +20,40 @@
         </nav>
     </header>
 
-    <div class="home ">
+    <div class="home">
         <h2>Os melhores bolos da cidade</h2>
         <p>Delicie-se com nossos sabores exclusivos</p>
-        
-   
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="./fotos/logo.jpg" width="850" height="650" alt="Logo">
+            </div>
+            <div class="mySlides fade">
+                <img src="./fotos/bolo2.jpg" width="850" height="650" alt="Bolo 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="./fotos/bolo4.jpg" width="850" height="650" alt="Bolo 4">
+            </div>
+            <div class="mySlides fade">
+                <img src="./fotos/bolo5.jpg" width="850" height="650" alt="Bolo 5">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
     </div>
-    <!-- Fim carousel de fotos -->
 
     <div id="sobre">
         <h2>Sobre Nós</h2>
@@ -39,7 +66,7 @@
     <footer class="footer">
         <p>#Aqui tem Bolo!</p>        
         <p class="endereco">
-            <span class="pin">📍</span> Rua Tenente Isaías Branco de Araújo,  215 - Vila das Belezas, São Paulo - SP
+            <span class="pin">📍</span> Rua Tenente Isaías Branco de Araújo, 215 - Vila das Belezas, São Paulo - SP
         </p>
     </footer>
    
