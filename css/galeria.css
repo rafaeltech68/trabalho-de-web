@@ -1,0 +1,28 @@
+.galeria {
+    height: 3000px;
+    background-color: #c49565;  /* Bege/Creme */
+    padding: 15px 0 25px 0;
+    color: white;
+    text-align: center;     
+}
+
+.galeria img {
+  border: 3px solid #c2185b;
+  
+}
+
+.img {
+    display: flex;
+    justify-content: center;    
+    list-style-type: none; /* Remove as bolinha da lista */  
+    text-align: center; 
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.img figcaption {
+    text-align: center;
+    margin-top: 20px;
+    background: #c2185b;    
+}

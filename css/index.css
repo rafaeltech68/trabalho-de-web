@@ -1,0 +1,15 @@
+/*home--index*/
+.home {
+    background-color: #c49565; /* Bege/Creme */
+    height: 800px;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+
+/*sobre-index*/
+#sobre {    
+    padding: 20px 0 120px 0;
+    text-align: center;
+    background-color: #f8d7da; /* Rosa Claro */
+}
