@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aqui Tem Bolo - Contato</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/contatos.css">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/contatos.css">
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header> <!-- menu de navegação -->
+    <header>
         <h1>Aqui Tem Bolo</h1>
+        <!-- Menu de navegação -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -20,17 +20,42 @@
         </nav>
     </header>
 
-    <div class="container">
-        
+    <div class="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
+
+        <!-- Formulário de contato -->
+        <form id="contactForm" action="/submit-form" method="post" onsubmit="return validateForm()">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <!-- Elemento para exibir a mensagem de sucesso -->
+        <p id="successMessage" style="display: none; color: green; margin-top: 20px;">
+            Obrigado por entrar em contato! Sua mensagem foi enviada com sucesso.
+        </p>
     </div>
-    <!-- Rodapé -->
+
+    <!-- Rodapé da página -->
     <footer class="footer">
         <p>#Aqui tem Bolo!</p>        
         <p class="endereco">
-            <span class="pin">📍</span> Rua Tenente Isaías Branco de Araújo,  215 - Vila das Belezas, São Paulo - SP
+            <span class="pin">📍</span> Rua Tenente Isaías Branco de Araújo, 215 - Vila das Belezas, São Paulo - SP
         </p>
     </footer>
-   
-    <script src="scripts.js"></script> 
+    
+    <!-- Script de validação do formulário -->
+    <script src="/js/contatos.js"></script>
 </body>
 </html>

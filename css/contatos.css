@@ -1,0 +1,46 @@
+.contato {
+    background-color: #c49565;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+/* Formulário */
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #eebdbd; /* Rosa claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000;
+}
+
+label {
+    display: block;
+    margin: 15px 0 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #361f1f;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #c2185b; /* Rosa Escuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* ser passar o mouse no ele muda a cor */
+button:hover {
+    background-color: #bb5376;
+}

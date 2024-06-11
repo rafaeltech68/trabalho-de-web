@@ -6,9 +6,7 @@ body {
     background-color: #c2185b; /* Rosa escuro */
 }
 
-/*-----------------------------------------------------------------------------------*\
-
-/*cabeçalho*/
+/* Menu de navegação */
 header {
     background-color: #c2185b; /* Rosa Escuro */
     color: white;
@@ -21,7 +19,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline; /*alinha o menu em linha*/
+    display: inline; /* Alinha o menu em linha */
     margin: 0 15px;
 }
 
@@ -30,9 +28,7 @@ nav ul li a {
     text-decoration: none; /* Remove o sublinhado do link */
 }
 
-/*----------------------------------------------------------------------------------*\
-
-/*rodape*/
+/* Rodapé */
 footer {
     background-color: #c2185b; /* Rosa Escuro */
     color: white;
