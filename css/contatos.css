@@ -1,13 +1,14 @@
 .contato {
+    height: 800px;
     background-color: #c49565;
-    padding: 30px;
-    color: white;
+    padding: 20px;
+    color: black;
     text-align: center;
 }
 
 /* Formulário */
 form {
-    max-width: 600px;
+    max-width: 550px;
     margin: auto;
     background-color: #eebdbd; /* Rosa claro */
     padding: 20px;
@@ -22,7 +23,7 @@ label {
     font-weight: bold;
 }
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"], input[type="email"], input[type="tel"], textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #361f1f;
@@ -32,7 +33,7 @@ input[type="text"], input[type="email"], textarea {
 
 button {
     background-color: #c2185b; /* Rosa Escuro */
-    color: white;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;

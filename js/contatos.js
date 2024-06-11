@@ -18,10 +18,10 @@ function validateForm() {
         return false;
     }
 
-    // Verificar se o telefone é válido (exemplo simples, ajustável conforme necessidade)
-    var telefonePattern = /^\d{10,11}$/; // Padrão simples para 10 ou 11 dígitos
+    // Verificar se o telefone é válido
+    var telefonePattern = /^\d{11}$/; // so aceita enviar ser tiver 11 dígitos
     if (!telefonePattern.test(telefone)) {
-        alert("Por favor, insira um telefone válido (somente números, 10 ou 11 dígitos).");
+        alert("Por favor, insira um Telefone válido de 11 digitos.");
         return false;
     }
 
